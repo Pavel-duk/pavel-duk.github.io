@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Test front-end</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <script src="http://code.jquery.com/jquery-2.0.2.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Aref+Ruqaa&family=Lato:wght@700&family=Poppins&family=Roboto&display=swap"
+          rel="stylesheet">
+</head>
+<body>
+<header>
+    <div>
+        <img src="img/Vector.png" id="vec1">
+        <img src="img/Vector 1.png" id="vec2">
+    </div>
+</header>
+<section>
+    <div class="content">
+        <div id="logo">
+            <a href="https://google.com" target="_blank">
+                <img src="img/Group.svg">
+            </a>
+        </div>
+        <div id="title">
+            <img src="img/Under Construction.png">
+        </div>
+        <div id="title2">
+            <img src="img/title2.png">
+        </div>
+        <div class="timer">
+            <div class="timer__items">
+                <div class="timer__item timer__days">00</div>
+                <div class="timer__item timer__hours">00</div>
+                <div class="timer__item timer__minutes">00</div>
+                <div class="timer__item timer__seconds">00</div>
+            </div>
+        </div>
+        <div id="text">
+            <img src="img/text.png">
+        </div>
+        <div id="button">
+            <button onclick="window.location.href = 'https://google.com';">Go to the event &gt;</button>
+        </div>
+    </div>
+</section>
+<footer>
+
+    <div>
+        <form id="form" method="post" action="javascript:void(0);" onsubmit="ajax()">
+            <input type="text" name="email" class="email" value="Enter your Email and get notified"/>
+            <button type="submit" name="email"><img src="img/arrow-right.png"></button>
+        </form>
+        <div id="results"></div>
+    </div>
+</footer>
+
+</body>
+</html>
